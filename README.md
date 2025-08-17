@@ -4,7 +4,9 @@ Clone this repository into the path
 C:\AQuRA\
 
 With Vitis 2023.1, open the folder 
+
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1
+
 An empty workspace should appear. To import the projects, select
 File -> Import -> Import projects from Git -> Existing local repository -> OpticsFoundry_Sequencer_MZ -> Import existing Eclipse projects -> OpticsFoundry_Sequencer_MZ_Vitis_2023.1 -> Finish
 
@@ -28,4 +30,12 @@ Connect JTAG cable to MicroZed, select "Explorer" -> "Program Flash"
 Use OpticsFoundry_Control_AQuRA or OpticsFoundry_ControlLight to use it.
 
 
-If you want to recreate the bitstream, use Vivado 2023.1.
+If you want to recreate the bitstream, use Vivado 2023.1. Open project
+
+C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vivado_2023.1\FireflyControl_1.xpr
+
+Update all IP.
+
+When creating the bitstream, you can ignore the two "BD 41-237" warnings.
+
+

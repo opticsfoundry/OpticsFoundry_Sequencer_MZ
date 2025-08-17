@@ -75,14 +75,11 @@ preplace inst xlconstant_5 -pg 1 -lvl 6 -x 2660 -y 2260 -defaultsOSRD
 preplace inst xlconstant_6 -pg 1 -lvl 6 -x 2660 -y 2160 -defaultsOSRD
 preplace inst xlslice_periodic_trigger_count_2 -pg 1 -lvl 10 -x 5110 -y 2380 -defaultsOSRD
 preplace inst xlslice_periodic_trigger_count_3 -pg 1 -lvl 10 -x 5110 -y 2480 -defaultsOSRD
-preplace inst signal_selector_IIC_0 -pg 1 -lvl 8 -x 3510 -y 860 -defaultsOSRD
-preplace inst signal_selector_IIC_1 -pg 1 -lvl 8 -x 3510 -y 470 -defaultsOSRD
 preplace inst xlslice_clock_cycles_this_run_0 -pg 1 -lvl 10 -x 5110 -y 1780 -defaultsOSRD
 preplace inst xlslice_clock_cycles_this_run_1 -pg 1 -lvl 10 -x 5110 -y 1880 -defaultsOSRD
 preplace inst xlslice_core_options_PL_to_PS -pg 1 -lvl 10 -x 5110 -y 2180 -defaultsOSRD
 preplace inst GPIO_trigger_PS_to_core -pg 1 -lvl 2 -x 510 -y 1410 -defaultsOSRD
 preplace inst GPIO_condition_PS_to_core1 -pg 1 -lvl 2 -x 510 -y 1510 -defaultsOSRD
-preplace inst stop_watch_wrapper_0 -pg 1 -lvl 9 -x 4430 -y 2290 -defaultsOSRD
 preplace inst GPIO_reset_stop_watch -pg 1 -lvl 2 -x 510 -y 1700 -defaultsOSRD
 preplace inst xlslice_stop_watch_low -pg 1 -lvl 10 -x 5110 -y 2580 -defaultsOSRD
 preplace inst xlslice_stop_watch_low1 -pg 1 -lvl 10 -x 5110 -y 2680 -defaultsOSRD
@@ -103,9 +100,6 @@ preplace inst xlconcat_mem_input_address -pg 1 -lvl 11 -x 5390 -y 900 -defaultsO
 preplace inst xlconcat_status1 -pg 1 -lvl 4 -x 1510 -y 260 -defaultsOSRD
 preplace inst GPIO_reset_input_mem_core_interrupt -pg 1 -lvl 2 -x 510 -y 2540 -defaultsOSRD
 preplace inst xlconcat_mem_input_address1 -pg 1 -lvl 12 -x 6290 -y 970 -defaultsOSRD
-preplace inst signal_selector_SPI_0 -pg 1 -lvl 8 -x 3510 -y 1170 -defaultsOSRD
-preplace inst signal_selector_SPI_1 -pg 1 -lvl 8 -x 3510 -y 1440 -defaultsOSRD
-preplace inst clock_lock_watcher_0 -pg 1 -lvl 4 -x 1510 -y 1390 -defaultsOSRD
 preplace inst xlconstant_mem_input_addr_high -pg 1 -lvl 10 -x 5110 -y 930 -defaultsOSRD
 preplace inst xlconcat_mem_input_web -pg 1 -lvl 11 -x 5390 -y 690 -defaultsOSRD
 preplace inst axi_gpio_core_status_0 -pg 1 -lvl 12 -x 6290 -y 1520 -defaultsOSRD
@@ -128,6 +122,12 @@ preplace inst clk_wiz_ext_selection -pg 1 -lvl 4 -x 1510 -y 1060 -defaultsOSRD
 preplace inst proc_sys_reset_0 -pg 1 -lvl 5 -x 2140 -y 1780 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1510 -y 670 -defaultsOSRD
 preplace inst axi_interconnect_1 -pg 1 -lvl 3 -x 950 -y 380 -defaultsOSRD
+preplace inst signal_selector_IIC_0 -pg 1 -lvl 8 -x 3510 -y 860 -defaultsOSRD
+preplace inst signal_selector_IIC_1 -pg 1 -lvl 8 -x 3510 -y 470 -defaultsOSRD
+preplace inst stop_watch_wrapper_0 -pg 1 -lvl 9 -x 4430 -y 2290 -defaultsOSRD
+preplace inst signal_selector_SPI_0 -pg 1 -lvl 8 -x 3510 -y 1170 -defaultsOSRD
+preplace inst signal_selector_SPI_1 -pg 1 -lvl 8 -x 3510 -y 1440 -defaultsOSRD
+preplace inst clock_lock_watcher_0 -pg 1 -lvl 4 -x 1510 -y 1390 -defaultsOSRD
 preplace inst core_wrapper_0 -pg 1 -lvl 9 -x 4430 -y 1070 -defaultsOSRD
 preplace netloc GPIO_I2C_RESET_Dout 1 2 13 630J 140 1120 20 NJ 20 NJ 20 NJ 20 N 20 NJ 20 NJ 20 NJ 20 6150 60 NJ 60 NJ 60 N
 preplace netloc GPIO_LED_0_BLUE_Dout 1 2 13 770J 1890 1110 1660 NJ 1660 2370J 1690 NJ 1690 3280 1600 NJ 1600 NJ 1600 NJ 1600 5920 2100 NJ 2100 NJ 2100 7320

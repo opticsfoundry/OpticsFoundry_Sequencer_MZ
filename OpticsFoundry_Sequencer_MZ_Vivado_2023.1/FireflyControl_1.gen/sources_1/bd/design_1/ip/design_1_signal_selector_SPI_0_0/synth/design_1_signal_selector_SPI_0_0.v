@@ -1,5 +1,5 @@
 // (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
+// (c) Copyright 2022-2025 Advanced Micro Devices, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of AMD and is protected under U.S. and international copyright
@@ -50,9 +50,9 @@
 // IP VLNV: xilinx.com:module_ref:signal_selector_SPI:1.0
 // IP Revision: 1
 
-(* X_CORE_INFO = "signal_selector_SPI,Vivado 2023.1.1" *)
+(* X_CORE_INFO = "signal_selector_SPI,Vivado 2023.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_signal_selector_SPI_0_0,signal_selector_SPI,{}" *)
-(* CORE_GENERATION_INFO = "design_1_signal_selector_SPI_0_0,signal_selector_SPI,{x_ipProduct=Vivado 2023.1.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=signal_selector_SPI,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "design_1_signal_selector_SPI_0_0,signal_selector_SPI,{x_ipProduct=Vivado 2023.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=signal_selector_SPI,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_signal_selector_SPI_0_0 (
