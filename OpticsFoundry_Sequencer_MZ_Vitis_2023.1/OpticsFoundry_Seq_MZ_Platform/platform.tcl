@@ -77,3 +77,5 @@ platform active {OpticsFoundry_Seq_MZ_Platform}
 bsp reload
 bsp write
 platform generate -domains 
+platform active {OpticsFoundry_Seq_MZ_Platform}
+platform config -updatehw {C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vivado_2023.1/design_1_wrapper.xsa}

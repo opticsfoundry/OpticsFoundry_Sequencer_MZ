@@ -1,11 +1,19 @@
-OpticsFoundry Sequencer for MicroZed 7020
+# OpticsFoundry Sequencer for MicroZed 7020
+
+## Introduction
+
+The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel or SPI, I2C bus to output and input (analog, digital, and direct digital synthesizers). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and PYNQ versions are also available; ask us if you need them.
+
+## Cloning
 
 Clone this repository into the path
 C:\AQuRA\
 
 (It's easier to use this path than trying to adjust the project to a different one. The Vitis project can be adjusted relatively easily. The Vivado project takes more effort. You usually only need the Vitis project.)
 
-With Vitis 2023.1, open the folder 
+## To create the MicroZed firmware
+
+With Vitis 2023.1 (and not another Vitis version), open the folder 
 
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1
 
@@ -28,13 +36,20 @@ Right click on projects in "Explorer" and select "Build all", or just "Build", t
 Right click on "Assistant" OpticsFoundry_Seq_MZ_App -> Release and select it.
 Right click on projects in "Explorer" and select "Build all", or just "Build", then "Create Boot Image".
 
-Connect JTAG cable to MicroZed, select "Explorer" -> "Program Flash"
+Connect JTAG cable to the MicroZed (e.g. the Digilent JTAG-HS3), select "Explorer" -> "Program Flash"
 
 
 Use OpticsFoundry_Control_AQuRA or OpticsFoundry_ControlLight to use it.
 
 
-If you want to recreate the bitstream, use Vivado 2023.1. Open project
+## Modifying the C code of the MicroZed firmware
+
+This code is based on the Vitis example lwIP echo server. Most of the sequencer specific code is contained in firefly.c. To change the IP configuration (MAC address, DHCP or static IP) follow the instructions in main.c. Project specific TCP/IP communication code is contained in echo.c. An interpreter for a very simple programing language running on the ARM core of the MircroZed is implemented using the code in the OpticsFoundryCPUCommandSequencer folder. This folder can also be opened as a Visual Studio 2022 C++ Makefile project, to run the interpreter on Windows for debugging.
+
+
+## To create the FPGA bitstream
+
+Use Vivado 2023.1 (and not another Vivado version) to open project 
 
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vivado_2023.1\FireflyControl_1.xpr
 
@@ -42,4 +57,23 @@ Update all IP.
 
 When creating the bitstream, you can ignore the two "BD 41-237" warnings.
 
+After creating the bitstream, export it using
+
+File -> Export -> Export Hardware -> "Include Bitstream"-> Finish
+
+To include this bitstream in the MicroZed firmware, in Vitis, in "Explorer" right click on 
+
+OpticsFoundry_Seq_MZ_Platform 
+
+select "Update Hardware Specifications" and select
+
+C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vivado_2023.1/design_1_wrapper.xsa
+
+Then, as explained above, rebuild everything, create boot image, and program flash.
+
+## Modifying the FPGA design
+
+Open the project and then "Open Block Design". After the project has fully loaded, you can access the source files in the Block Design window under "Sources -> Design Sources". The main part of the code is contained in the file core.sv (under core_wrapper -> core_inst: core). It shouldn't be too difficult to understand the design by reading this file. It might be informative to read it to understand the sequences that OpticsFoundry_Control and OpticsFoundry_ControlLight send to the sequencer. (You can inspect an ASCII file dump of those sequences by enabling the "Debug FPGA buffer" option in the "System debug options" menu of OpticsFoundry_Control).
+
+The pinout to the MicroZed header is defined under "Constraints -> constr_1 -> MicroZed_constraints.xdc".
 

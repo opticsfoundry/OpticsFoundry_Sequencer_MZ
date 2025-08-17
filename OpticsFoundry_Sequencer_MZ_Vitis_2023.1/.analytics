@@ -148,3 +148,6 @@ timestamp=[2025-08-17 17:57:29], mode=BUILD, duration=0:00:00.437, duration_ms=4
 timestamp=[2025-08-17 17:57:33], mode=BUILD, duration=0:00:04.238, duration_ms=4238, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Debug, clean_build=false}
 timestamp=[2025-08-17 17:57:53], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
 timestamp=[2025-08-17 17:57:58], mode=BUILD, duration=0:00:04.220, duration_ms=4220, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 19:54:50], mode=WORKBENCH_START, duration=0:00:15.682, duration_ms=15682, data={}
+timestamp=[2025-08-17 19:54:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.254, duration_ms=254, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=OpticsFoundry_Seq_MZ_App,OpticsFoundry_Seq_MZ_App_system,OpticsFoundry_Seq_MZ_Platform,RemoteSystemsTempFiles}
+timestamp=[2025-08-17 19:54:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.038, duration_ms=38, data={}
