@@ -1,0 +1,12 @@
+/* C:/Users/fschrec1/AppData/Local/Temp/bootgen_OpticsFoundry_Seq_MZ_App_system15232191848671799397/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*OpticsFoundry_Seq_MZ_Platform*/
+the_ROM_image:
+{
+ [bootloader] C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vitis_2023.1/OpticsFoundry_Seq_MZ_Platform/export/OpticsFoundry_Seq_MZ_Platform/sw/OpticsFoundry_Seq_MZ_Platform/boot/fsbl.elf
+ C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vitis_2023.1/OpticsFoundry_Seq_MZ_App/_ide/bitstream/design_1_wrapper.bit
+ C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vitis_2023.1/OpticsFoundry_Seq_MZ_App/Debug/OpticsFoundry_Seq_MZ_App.elf
+}

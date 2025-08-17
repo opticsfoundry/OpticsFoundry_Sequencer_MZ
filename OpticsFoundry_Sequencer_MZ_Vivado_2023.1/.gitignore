@@ -1,0 +1,70 @@
+# ===== General =====
+*.log
+*.jou
+*.bak
+*.tmp
+*.backup
+*.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.rar
+
+# ===== Vitis workspace (per-machine; do NOT commit) =====
+# Workspace-level metadata; safe to ignore
+.metadata/
+# Local analysis caches
+.vitis/
+.vitis_analyzer/
+
+# ===== Keep Eclipse/Vitis project descriptors (REQUIRED) =====
+# NOTE: do NOT ignore these — they define the project so Vitis can import it.
+!.project
+!.cproject
+!.settings/
+
+# ===== Build output (throwaway) =====
+build*/
+[Bb]uild*/
+Debug*/
+Release*/
+out*/
+output*/
+*.o
+*.obj
+*.elf
+*.map
+*.lst
+*.bin
+*.dat
+*.hex
+*.dump
+*.img
+
+# ===== Vivado (optionally include only XSA or tcl) =====
+# If you store a full Vivado project, ignore its heavy build products:
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.Xil/
+*.xpr.user
+# Keep sources, constraints, scripts:
+!*.xo
+!*.xsa
+!*.xdc
+!*.tcl
+!*.v
+!*.sv
+!*.vh
+!*.bd
+# If you don’t check in the .xsa, ensure a script exists to regenerate it.
+
+# ===== OS/editor noise =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: keep empty dirs =====
+!*/.gitkeep

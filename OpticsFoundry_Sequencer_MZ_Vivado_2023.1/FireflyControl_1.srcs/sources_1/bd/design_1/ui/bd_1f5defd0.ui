@@ -1,0 +1,307 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.786493",
+   "Default View_TopLeft":"601,160",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 15 -x 7360 -y 30 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 15 -x 7360 -y 0 -defaultsOSRD
+preplace port port-id_clock_or_strobe -pg 1 -lvl 15 -x 7360 -y 980 -defaultsOSRD
+preplace port port-id_ext_clock_0 -pg 1 -lvl 0 -x -130 -y 300 -defaultsOSRD
+preplace port port-id_ext_trigger_0 -pg 1 -lvl 0 -x -130 -y 330 -defaultsOSRD
+preplace port port-id_ext_trigger_1 -pg 1 -lvl 0 -x -130 -y 360 -defaultsOSRD
+preplace port port-id_ext_condition_0 -pg 1 -lvl 0 -x -130 -y 390 -defaultsOSRD
+preplace port port-id_ext_condition_1 -pg 1 -lvl 0 -x -130 -y 420 -defaultsOSRD
+preplace port port-id_I2C_1_scl_o -pg 1 -lvl 15 -x 7360 -y 390 -defaultsOSRD
+preplace port port-id_I2C_1_scl_t -pg 1 -lvl 15 -x 7360 -y 420 -defaultsOSRD
+preplace port port-id_I2C_1_scl_i -pg 1 -lvl 15 -x 7360 -y 360 -defaultsOSRD -right
+preplace port port-id_I2C_1_sda_o -pg 1 -lvl 15 -x 7360 -y 300 -defaultsOSRD
+preplace port port-id_I2C_1_sda_t -pg 1 -lvl 15 -x 7360 -y 330 -defaultsOSRD
+preplace port port-id_I2C_1_sda_i -pg 1 -lvl 15 -x 7360 -y 270 -defaultsOSRD -right
+preplace port port-id_I2C_0_scl_o -pg 1 -lvl 15 -x 7360 -y 210 -defaultsOSRD
+preplace port port-id_I2C_0_scl_t -pg 1 -lvl 15 -x 7360 -y 240 -defaultsOSRD
+preplace port port-id_I2C_0_scl_i -pg 1 -lvl 15 -x 7360 -y 180 -defaultsOSRD -right
+preplace port port-id_IIC_0_sda_o -pg 1 -lvl 15 -x 7360 -y 120 -defaultsOSRD
+preplace port port-id_IIC_0_sda_t -pg 1 -lvl 15 -x 7360 -y 150 -defaultsOSRD
+preplace port port-id_I2C_0_sda_i -pg 1 -lvl 15 -x 7360 -y 90 -defaultsOSRD -right
+preplace port port-id_SPI_0_MOSI -pg 1 -lvl 15 -x 7360 -y 510 -defaultsOSRD
+preplace port port-id_SPI_0_SCLK -pg 1 -lvl 15 -x 7360 -y 450 -defaultsOSRD
+preplace port port-id_SPI_0_MISO -pg 1 -lvl 15 -x 7360 -y 480 -defaultsOSRD -right
+preplace port port-id_SPI_1_MISO -pg 1 -lvl 15 -x 7360 -y 570 -defaultsOSRD -right
+preplace port port-id_SPI_1_MOSI -pg 1 -lvl 15 -x 7360 -y 600 -defaultsOSRD
+preplace port port-id_SPI_1_SCLK -pg 1 -lvl 15 -x 7360 -y 540 -defaultsOSRD
+preplace port port-id_LED_running -pg 1 -lvl 15 -x 7360 -y 950 -defaultsOSRD
+preplace port port-id_LED_ext_clock_0_locked -pg 1 -lvl 15 -x 7360 -y 890 -defaultsOSRD
+preplace port port-id_LED_clock_locked -pg 1 -lvl 15 -x 7360 -y 920 -defaultsOSRD
+preplace port port-id_trigger_out -pg 1 -lvl 15 -x 7360 -y 760 -defaultsOSRD
+preplace port port-id_ext_clock_1 -pg 1 -lvl 0 -x -130 -y 270 -defaultsOSRD
+preplace port port-id_LED_select_ext_clock_locked -pg 1 -lvl 15 -x 7360 -y 1010 -defaultsOSRD
+preplace port port-id_interlock -pg 1 -lvl 0 -x -130 -y 1410 -defaultsOSRD
+preplace port port-id_storing_data -pg 1 -lvl 15 -x 7360 -y 730 -defaultsOSRD
+preplace port port-id_uart_rtl_0_sout -pg 1 -lvl 15 -x 7360 -y 820 -defaultsOSRD
+preplace port port-id_uart_rtl_0_sin -pg 1 -lvl 0 -x -130 -y 1150 -defaultsOSRD
+preplace portBus output_bus -pg 1 -lvl 15 -x 7360 -y 660 -defaultsOSRD
+preplace portBus SPI_select -pg 1 -lvl 15 -x 7360 -y 630 -defaultsOSRD
+preplace portBus core_options_LED_0 -pg 1 -lvl 15 -x 7360 -y 1510 -defaultsOSRD
+preplace portBus LED_0_RED -pg 1 -lvl 15 -x 7360 -y 1700 -defaultsOSRD
+preplace portBus LED_0_GREEN -pg 1 -lvl 15 -x 7360 -y 1850 -defaultsOSRD
+preplace portBus LED_0_BLUE -pg 1 -lvl 15 -x 7360 -y 1880 -defaultsOSRD
+preplace portBus I2C_RESET -pg 1 -lvl 15 -x 7360 -y 60 -defaultsOSRD
+preplace portBus core_dig_in -pg 1 -lvl 0 -x -130 -y 1360 -defaultsOSRD
+preplace portBus core_dig_out -pg 1 -lvl 15 -x 7360 -y 2280 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 2140 -y 610 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 8 -x 3510 -y 2260 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -x 2660 -y 2540 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -x 2660 -y 2660 -defaultsOSRD
+preplace inst GPIO_reset_core -pg 1 -lvl 2 -x 510 -y 800 -defaultsOSRD
+preplace inst GPIO_start_core -pg 1 -lvl 2 -x 510 -y 900 -defaultsOSRD
+preplace inst GPIO_clear_int_core -pg 1 -lvl 2 -x 510 -y 1100 -defaultsOSRD
+preplace inst GPIO_pause_core -pg 1 -lvl 2 -x 510 -y 1000 -defaultsOSRD
+preplace inst GPIO_reset_ext_clock_lock -pg 1 -lvl 2 -x 510 -y 500 -defaultsOSRD
+preplace inst GPIO_reset_int_clock_lock -pg 1 -lvl 2 -x 510 -y 600 -defaultsOSRD
+preplace inst GPIO_select_ext_clock -pg 1 -lvl 2 -x 510 -y 1300 -defaultsOSRD
+preplace inst xlconcat_status -pg 1 -lvl 12 -x 6290 -y 1250 -defaultsOSRD
+preplace inst GPIO_latch_core_status -pg 1 -lvl 2 -x 510 -y 1200 -defaultsOSRD
+preplace inst xlslice_wait_cycles_0 -pg 1 -lvl 14 -x 7080 -y 550 -defaultsOSRD
+preplace inst xlslice_wait_cycles_1 -pg 1 -lvl 14 -x 7080 -y 650 -defaultsOSRD
+preplace inst blk_mem_input_data -pg 1 -lvl 12 -x 6290 -y 680 -defaultsOSRD
+preplace inst axi_bram_ctrl_input_data -pg 1 -lvl 12 -x 6290 -y 380 -defaultsOSRD
+preplace inst xlslice_periodic_trigger_count_0 -pg 1 -lvl 14 -x 7080 -y 750 -defaultsOSRD
+preplace inst xlslice_periodic_trigger_count_1 -pg 1 -lvl 14 -x 7080 -y 850 -defaultsOSRD
+preplace inst GPIO_reset_clock_lock_watcher -pg 1 -lvl 2 -x 510 -y 700 -defaultsOSRD
+preplace inst xlconcat_address -pg 1 -lvl 8 -x 3510 -y 1940 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 6 -x 2660 -y 2260 -defaultsOSRD
+preplace inst xlconstant_6 -pg 1 -lvl 6 -x 2660 -y 2160 -defaultsOSRD
+preplace inst xlslice_periodic_trigger_count_2 -pg 1 -lvl 10 -x 5110 -y 2380 -defaultsOSRD
+preplace inst xlslice_periodic_trigger_count_3 -pg 1 -lvl 10 -x 5110 -y 2480 -defaultsOSRD
+preplace inst signal_selector_IIC_0 -pg 1 -lvl 8 -x 3510 -y 860 -defaultsOSRD
+preplace inst signal_selector_IIC_1 -pg 1 -lvl 8 -x 3510 -y 470 -defaultsOSRD
+preplace inst xlslice_clock_cycles_this_run_0 -pg 1 -lvl 10 -x 5110 -y 1780 -defaultsOSRD
+preplace inst xlslice_clock_cycles_this_run_1 -pg 1 -lvl 10 -x 5110 -y 1880 -defaultsOSRD
+preplace inst xlslice_core_options_PL_to_PS -pg 1 -lvl 10 -x 5110 -y 2180 -defaultsOSRD
+preplace inst GPIO_trigger_PS_to_core -pg 1 -lvl 2 -x 510 -y 1410 -defaultsOSRD
+preplace inst GPIO_condition_PS_to_core1 -pg 1 -lvl 2 -x 510 -y 1510 -defaultsOSRD
+preplace inst stop_watch_wrapper_0 -pg 1 -lvl 9 -x 4430 -y 2290 -defaultsOSRD
+preplace inst GPIO_reset_stop_watch -pg 1 -lvl 2 -x 510 -y 1700 -defaultsOSRD
+preplace inst xlslice_stop_watch_low -pg 1 -lvl 10 -x 5110 -y 2580 -defaultsOSRD
+preplace inst xlslice_stop_watch_low1 -pg 1 -lvl 10 -x 5110 -y 2680 -defaultsOSRD
+preplace inst GPIO_LED_0_RED -pg 1 -lvl 2 -x 510 -y 1800 -defaultsOSRD
+preplace inst GPIO_LED_0_GREEN -pg 1 -lvl 2 -x 510 -y 1900 -defaultsOSRD
+preplace inst GPIO_LED_0_BLUE -pg 1 -lvl 2 -x 510 -y 2000 -defaultsOSRD
+preplace inst xlslice_core_options_LED -pg 1 -lvl 10 -x 5110 -y 2080 -defaultsOSRD
+preplace inst GPIO_I2C_RESET -pg 1 -lvl 2 -x 510 -y 2100 -defaultsOSRD
+preplace inst xlslice_core_options_SPI_select -pg 1 -lvl 10 -x 5110 -y 1980 -defaultsOSRD
+preplace inst xlconstant_7 -pg 1 -lvl 7 -x 2990 -y 800 -defaultsOSRD
+preplace inst GPIO_select_ext_clock1 -pg 1 -lvl 2 -x 510 -y 2210 -defaultsOSRD
+preplace inst GPIO_reset_select_ext_clock -pg 1 -lvl 2 -x 510 -y 2310 -defaultsOSRD
+preplace inst xlslice_core_dig_out -pg 1 -lvl 10 -x 5110 -y 2280 -defaultsOSRD
+preplace inst GPIO_reset_secondary_core_interrupt -pg 1 -lvl 2 -x 510 -y 2430 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 9 -x 4430 -y 1770 -defaultsOSRD
+preplace inst xlconstant_mem_input_addr_low -pg 1 -lvl 10 -x 5110 -y 720 -defaultsOSRD
+preplace inst xlconcat_mem_input_address -pg 1 -lvl 11 -x 5390 -y 900 -defaultsOSRD
+preplace inst xlconcat_status1 -pg 1 -lvl 4 -x 1510 -y 260 -defaultsOSRD
+preplace inst GPIO_reset_input_mem_core_interrupt -pg 1 -lvl 2 -x 510 -y 2540 -defaultsOSRD
+preplace inst xlconcat_mem_input_address1 -pg 1 -lvl 12 -x 6290 -y 970 -defaultsOSRD
+preplace inst signal_selector_SPI_0 -pg 1 -lvl 8 -x 3510 -y 1170 -defaultsOSRD
+preplace inst signal_selector_SPI_1 -pg 1 -lvl 8 -x 3510 -y 1440 -defaultsOSRD
+preplace inst clock_lock_watcher_0 -pg 1 -lvl 4 -x 1510 -y 1390 -defaultsOSRD
+preplace inst xlconstant_mem_input_addr_high -pg 1 -lvl 10 -x 5110 -y 930 -defaultsOSRD
+preplace inst xlconcat_mem_input_web -pg 1 -lvl 11 -x 5390 -y 690 -defaultsOSRD
+preplace inst axi_gpio_core_status_0 -pg 1 -lvl 12 -x 6290 -y 1520 -defaultsOSRD
+preplace inst axi_gpio_core_status_1 -pg 1 -lvl 12 -x 6290 -y 1680 -defaultsOSRD
+preplace inst axi_gpio_config_status -pg 1 -lvl 1 -x 140 -y 530 -defaultsOSRD
+preplace inst axi_gpio_core_status_2 -pg 1 -lvl 13 -x 6740 -y 830 -defaultsOSRD
+preplace inst axi_gpio_core_status_3 -pg 1 -lvl 12 -x 6290 -y 1840 -defaultsOSRD
+preplace inst axi_gpio_core_status_4 -pg 1 -lvl 12 -x 6290 -y 2010 -defaultsOSRD
+preplace inst axi_gpio_core_status_5 -pg 1 -lvl 12 -x 6290 -y 2220 -defaultsOSRD
+preplace inst axi_gpio_core_status_6 -pg 1 -lvl 12 -x 6290 -y 2410 -defaultsOSRD
+preplace inst axi_gpio_stop_watch -pg 1 -lvl 12 -x 6290 -y 2590 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 6 -x 2660 -y 730 -defaultsOSRD
+preplace inst axi_iic_1 -pg 1 -lvl 6 -x 2660 -y 450 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 6 -x 2660 -y 1590 -defaultsOSRD
+preplace inst axi_quad_spi_1 -pg 1 -lvl 6 -x 2660 -y 1840 -defaultsOSRD
+preplace inst axi_uart16550_0 -pg 1 -lvl 6 -x 2660 -y 1110 -defaultsOSRD
+preplace inst clk_wiz_10_to_100MHz -pg 1 -lvl 4 -x 1510 -y 920 -defaultsOSRD
+preplace inst clk_wiz_core -pg 1 -lvl 4 -x 1510 -y 1220 -defaultsOSRD
+preplace inst clk_wiz_ext_selection -pg 1 -lvl 4 -x 1510 -y 1060 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 5 -x 2140 -y 1780 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1510 -y 670 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 3 -x 950 -y 380 -defaultsOSRD
+preplace inst core_wrapper_0 -pg 1 -lvl 9 -x 4430 -y 1070 -defaultsOSRD
+preplace netloc GPIO_I2C_RESET_Dout 1 2 13 630J 140 1120 20 NJ 20 NJ 20 NJ 20 N 20 NJ 20 NJ 20 NJ 20 6150 60 NJ 60 NJ 60 N
+preplace netloc GPIO_LED_0_BLUE_Dout 1 2 13 770J 1890 1110 1660 NJ 1660 2370J 1690 NJ 1690 3280 1600 NJ 1600 NJ 1600 NJ 1600 5920 2100 NJ 2100 NJ 2100 7320
+preplace netloc GPIO_LED_0_GREEN_Dout 1 2 13 NJ 1900 1180 1670 NJ 1670 2330J 1700 NJ 1700 3300 1610 NJ 1610 NJ 1610 NJ 1610 5910 2110 6560J 2090 NJ 2090 7180
+preplace netloc GPIO_LED_0_RED_Dout 1 2 13 NJ 1800 1090 1650 NJ 1650 2350J 1710 NJ 1710 3320 1620 NJ 1620 NJ 1620 NJ 1620 5900 2120 6550J 1700 NJ 1700 N
+preplace netloc GPIO_clear_int_core_Dout 1 2 7 690 560 1170 450 1750J 1030 2460J 970 2870J 1030 3070 1060 4040
+preplace netloc GPIO_condition_PS_to_core1_Dout 1 2 7 620 150 1130 30 NJ 30 NJ 30 NJ 30 N 30 3980J
+preplace netloc GPIO_latch_core_status1_Dout 1 2 2 N 700 1090
+preplace netloc GPIO_latch_core_status_Dout 1 2 7 670 530 1200 500 1800J 1240 NJ 1240 NJ 1240 3070 1290 4090
+preplace netloc GPIO_output_low1_Dout 1 2 7 N 800 1110 820 1790J 1230 NJ 1230 NJ 1230 3090 1280 4070
+preplace netloc GPIO_pause_core_Dout 1 2 7 650 540 1210 510 1850J 1040 2490J 990 NJ 990 3110 1030 3660
+preplace netloc GPIO_reset_ext_clock_lock 1 2 2 660 550 1120
+preplace netloc GPIO_reset_input_mem_core_interrupt_Dout 1 2 7 730 180 1160 90 NJ 90 NJ 90 NJ 90 NJ 90 3910J
+preplace netloc GPIO_reset_int_clock_lock_Dout 1 2 2 N 600 1100
+preplace netloc GPIO_reset_secondary_core_interrupt_Dout 1 2 7 700 160 1140 40 NJ 40 NJ 40 NJ 40 NJ 40 3940J
+preplace netloc GPIO_reset_select_ext_clock_Dout 1 2 2 750 1030 N
+preplace netloc GPIO_reset_stop_watch_Dout 1 2 7 660 1910 1270 1680 NJ 1680 2310J 1720 NJ 1720 3070 1830 3680J
+preplace netloc GPIO_select_ext_clock1_Dout 1 2 2 760 1090 N
+preplace netloc GPIO_select_ext_clock_Dout 1 2 2 740 1250 N
+preplace netloc GPIO_start_core_Dout 1 2 7 680 570 1190 460 1940J 1050 2520J 1010 2850J 1020 3080 1040 4050
+preplace netloc GPIO_trigger_PS_to_core_Dout 1 2 7 640 170 1150 70 NJ 70 NJ 70 NJ 70 3070 50 3970J
+preplace netloc axi_gpio_config_status_gpio_io_o 1 1 1 410 500n
+preplace netloc axi_iic_0_scl_o 1 6 2 N 690 3160
+preplace netloc axi_iic_0_scl_t 1 6 2 N 710 3130
+preplace netloc axi_iic_0_sda_o 1 6 2 2870 860 N
+preplace netloc axi_iic_0_sda_t 1 6 2 2820 740 3070
+preplace netloc axi_iic_1_scl_o 1 6 2 N 410 3270
+preplace netloc axi_iic_1_scl_t 1 6 2 N 430 3260
+preplace netloc axi_iic_1_sda_o 1 6 2 N 470 N
+preplace netloc axi_iic_1_sda_t 1 6 2 N 490 N
+preplace netloc axi_quad_spi_0_io0_o 1 6 2 2840 1160 NJ
+preplace netloc axi_quad_spi_0_sck_o 1 6 2 2850 1180 NJ
+preplace netloc axi_quad_spi_1_io0_o 1 6 2 2860 1430 NJ
+preplace netloc axi_quad_spi_1_sck_o 1 6 2 2870 1450 NJ
+preplace netloc axi_uart16550_0_sout 1 6 9 NJ 1120 3120J 190 NJ 190 4980J 500 NJ 500 NJ 500 6460J 380 NJ 380 7260
+preplace netloc blk_mem_gen_0_doutb 1 7 3 3330 2150 4100 2150 4780
+preplace netloc clk_wiz_10_to_100MHz_clk_out1 1 3 2 1280 520 1740
+preplace netloc clk_wiz_10_to_100MHz_locked 1 3 12 1250 470 1870 1060 2470 870 2790 630 N 630 3760 420 N 420 N 420 6110 870 6560 940 N 940 7320
+preplace netloc clk_wiz_core_clk_out1 1 4 8 1740 1200 NJ 1200 NJ 1200 3250 230 3860 380 N 380 N 380 5920
+preplace netloc clk_wiz_core_locked 1 3 12 1260 830 1760 1210 N 1210 2810 650 N 650 3870 600 4890 870 5210 980 5910 880 6550 920 N 920 N
+preplace netloc clk_wiz_ext_selection_clk_out1 1 3 2 1270 840 1730
+preplace netloc clk_wiz_ext_selection_locked 1 3 12 1290 850 1780 1220 NJ 1220 2830J 660 NJ 660 3800J 410 NJ 410 NJ 410 6020 840 6560J 740 6910J 1010 NJ
+preplace netloc clock_lock_watcher_0_ok 1 4 8 1930 140 NJ 140 NJ 140 3130 130 3770 140 NJ 140 N 140 6080
+preplace netloc core_0_periodic_trigger_count 1 9 5 4950 560 N 560 5930 800 6550 730 6980
+preplace netloc core_0_wait_cycles_latched 1 9 5 4850 540 N 540 N 540 N 540 6930
+preplace netloc core_dig_in_1 1 0 9 -60J 220 NJ 220 NJ 220 1220 160 1900J 170 NJ 170 NJ 170 3290J 160 3880
+preplace netloc core_wrapper_0_I2C_SCL 1 7 3 3380 680 3900J 610 4750
+preplace netloc core_wrapper_0_I2C_SDA 1 7 3 3330 670 3920J 650 4720
+preplace netloc core_wrapper_0_I2C_SELECT_0 1 7 3 3270 70 NJ 70 4700
+preplace netloc core_wrapper_0_I2C_SELECT_1 1 7 3 3340 200 NJ 200 4690
+preplace netloc core_wrapper_0_PL_to_PS_command 1 9 3 NJ 1410 NJ 1410 6040
+preplace netloc core_wrapper_0_SPI_OUT 1 7 3 3370 1300 4030J 630 4670
+preplace netloc core_wrapper_0_SPI_SCK 1 7 3 3360 1310 4060J 640 4730
+preplace netloc core_wrapper_0_SPI_SELECT_0 1 7 3 3300 260 NJ 260 4680
+preplace netloc core_wrapper_0_SPI_SELECT_1 1 7 3 3280 220 NJ 220 4780
+preplace netloc core_wrapper_0_SPI_chip_select 1 9 6 4900 510 NJ 510 NJ 510 NJ 510 6930J 460 7220J
+preplace netloc core_wrapper_0_adc_conversion_start 1 8 2 4130 490 4770
+preplace netloc core_wrapper_0_adc_enable 1 8 2 4120 460 4710
+preplace netloc core_wrapper_0_adc_programming_out 1 8 2 4190 1490 4680
+preplace netloc core_wrapper_0_adc_register_address 1 8 2 4140 510 4760
+preplace netloc core_wrapper_0_adc_write_enable 1 8 2 4160 620 4740
+preplace netloc core_wrapper_0_address 1 7 6 3350 690 3830 450 4810 470 N 470 6100 860 6480
+preplace netloc core_wrapper_0_address_extension_latched 1 9 3 4860 800 N 800 5920
+preplace netloc core_wrapper_0_address_latched 1 9 3 4870 810 N 810 6000
+preplace netloc core_wrapper_0_bus_clock_or_strobe 1 9 6 4830J 990 N 990 5970 900 6510 980 N 980 N
+preplace netloc core_wrapper_0_bus_data 1 9 6 4920 780 N 780 6070 820 6530J 400 6880 390 7270J
+preplace netloc core_wrapper_0_clock_cycles_this_run 1 9 1 4810 1250n
+preplace netloc core_wrapper_0_error_detected 1 9 3 N 1110 N 1110 5920
+preplace netloc core_wrapper_0_input_buf_mem_address 1 9 4 NJ 830 5270 1040 N 1040 6430
+preplace netloc core_wrapper_0_input_buf_mem_data 1 9 3 4940 820 N 820 5940
+preplace netloc core_wrapper_0_input_buf_mem_write 1 9 6 4830 660 5290J 600 5900J 550 6480 410 6890 400 7250
+preplace netloc core_wrapper_0_input_mem_PS_PL_interrupt 1 3 9 1240 1490 N 1490 N 1490 N 1490 3070 1550 4110 1500 4990J 1390 NJ 1390 6020
+preplace netloc core_wrapper_0_int_out 1 3 9 1270 430 1950J 1070 2480J 960 NJ 960 3260 700 3850 470 4800 480 N 480 5960
+preplace netloc core_wrapper_0_last_DMA_memory_margin 1 9 4 4990 1050 N 1050 N 1050 6460
+preplace netloc core_wrapper_0_options 1 9 1 4820 1230n
+preplace netloc core_wrapper_0_running 1 8 7 4150 520 4820 1030 N 1030 6150 890 6520 950 N 950 N
+preplace netloc core_wrapper_0_secondary_PS_PL_interrupt 1 3 9 1280 420 1960 1080 2380 1020 2860 1010 3100 1020 3890 500 4840J 1270 N 1270 5900
+preplace netloc core_wrapper_0_trigger_out 1 9 6 4910 520 NJ 520 N 520 6490J 430 6910J 420 7230J
+preplace netloc core_wrapper_0_waiting_for_periodic_trigger 1 9 3 N 1170 N 1170 5910
+preplace netloc core_wrapper_0_warning_missed_periodic_trigger 1 9 3 N 1190 N 1190 5900
+preplace netloc ext_clock_0_1 1 0 4 -90 250 NJ 250 NJ 250 1140
+preplace netloc ext_clock_1_1 1 0 4 NJ 270 NJ 270 610 260 1130
+preplace netloc ext_condition_0_1 1 0 12 NJ 390 NJ 390 720J 510 1180 490 1810J 1090 2530J 1000 NJ 1000 3090 1050 4020 560 4880 1310 N 1310 N
+preplace netloc ext_condition_1_1 1 0 12 -100J 200 NJ 200 NJ 200 1190 140 1920J 150 NJ 150 NJ 150 3150 140 3750 400 4930 1330 N 1330 N
+preplace netloc ext_trigger_0_1 1 0 9 -110J 210 NJ 210 NJ 210 1200 150 1910J 160 NJ 160 NJ 160 3280 150 3770
+preplace netloc ext_trigger_1_1 1 0 9 -70J 230 NJ 230 NJ 230 1230 170 1890J 180 NJ 180 NJ 180 3300 170 3930
+preplace netloc interlock_1 1 0 12 -80J 120 NJ 120 NJ 120 1090 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 6090
+preplace netloc port_MISO_1 1 7 8 3290 240 3730 250 4990 270 N 270 N 270 N 270 N 270 7300
+preplace netloc port_MISO_1_1 1 7 8 3380 1330 4010 570 N 570 N 570 N 570 6560 480 N 480 7210
+preplace netloc port_scl_i_1 1 7 8 3350 270 N 270 4970 280 N 280 N 280 N 280 N 280 7310
+preplace netloc port_scl_i_1_1 1 7 8 3320 180 N 180 N 180 N 180 N 180 N 180 N 180 N
+preplace netloc port_sda_i_1 1 7 8 3380 280 N 280 4930 260 N 260 N 260 N 260 N 260 7320
+preplace netloc port_sda_i_1_1 1 7 8 3310 80 N 80 4990 90 N 90 N 90 N 90 N 90 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 13 -10 430 N 430 810 240 1240 180 1880 1110 2510 590 N 590 3160 640 3840 550 N 550 N 550 5890 850 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 13 0 440 N 440 800 520 1230 440 1970 1120 2500 1320 N 1320 N 1320 4080 590 N 590 N 590 5990 830 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 1 1770 760n
+preplace netloc signal_selector_IIC_0_IIC_0_scl_i 1 6 3 N 670 3130 290 3640
+preplace netloc signal_selector_IIC_0_IIC_0_sda_i 1 6 3 2800 720 3150 300 3670
+preplace netloc signal_selector_IIC_0_port_scl_o 1 8 7 3790 210 NJ 210 NJ 210 N 210 NJ 210 NJ 210 NJ
+preplace netloc signal_selector_IIC_0_port_scl_t 1 8 7 3820 240 NJ 240 NJ 240 N 240 NJ 240 NJ 240 NJ
+preplace netloc signal_selector_IIC_0_port_sda_o 1 8 7 3780 130 NJ 130 NJ 130 5560 120 NJ 120 NJ 120 NJ
+preplace netloc signal_selector_IIC_0_port_sda_t 1 8 7 3810 150 NJ 150 NJ 150 N 150 NJ 150 NJ 150 NJ
+preplace netloc signal_selector_IIC_1_IIC_0_scl_i 1 6 3 N 390 3140 310 3660
+preplace netloc signal_selector_IIC_1_IIC_0_sda_i 1 6 3 2790 210 N 210 3650
+preplace netloc signal_selector_IIC_1_port_scl_o 1 8 7 3690 390 NJ 390 NJ 390 6150 460 6470J 420 6900J 410 7290J
+preplace netloc signal_selector_IIC_1_port_scl_t 1 8 7 3690 430 NJ 430 NJ 430 6140 480 6500J 460 6920J 430 7290J
+preplace netloc signal_selector_IIC_1_port_sda_o 1 8 7 3680 290 NJ 290 NJ 290 N 290 NJ 290 NJ 290 7320J
+preplace netloc signal_selector_IIC_1_port_sda_t 1 8 7 3740 300 NJ 300 NJ 300 N 300 NJ 300 NJ 300 7270J
+preplace netloc signal_selector_SPI_0_SPI_0_MISO 1 6 3 N 1590 NJ 1590 3650
+preplace netloc signal_selector_SPI_0_port_MOSI 1 8 7 3990 580 NJ 580 NJ 580 5940 560 6520J 450 NJ 450 7280J
+preplace netloc signal_selector_SPI_0_port_SCLK 1 8 7 3950 530 NJ 530 NJ 530 N 530 6510J 440 NJ 440 7290J
+preplace netloc signal_selector_SPI_1_SPI_0_MISO 1 6 3 N 1840 NJ 1840 3640
+preplace netloc signal_selector_SPI_1_port_MOSI 1 8 7 4000 480 4790J 490 NJ 490 N 490 NJ 490 NJ 490 7200J
+preplace netloc signal_selector_SPI_1_port_SCLK 1 8 7 3960 440 NJ 440 NJ 440 6130 470 NJ 470 NJ 470 7240J
+preplace netloc stop_watch_wrapper_0_counter 1 9 1 4720 2290n
+preplace netloc uart_rtl_0_sin_1 1 0 7 -50J 420 NJ 420 710J 500 1160 480 1820J 1100 2310J 980 2790
+preplace netloc xadc_wiz_0_channel_out 1 8 2 4190 540 4790
+preplace netloc xadc_wiz_0_do_out 1 8 1 4180 1210n
+preplace netloc xadc_wiz_0_drdy_out 1 8 1 4170 1230n
+preplace netloc xlconcat_1_dout 1 1 12 280 130 N 130 1100 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 6450
+preplace netloc xlconcat_address_dout 1 7 2 3380 1860 3660
+preplace netloc xlconcat_mem_input_address1_dout 1 12 1 6440 970n
+preplace netloc xlconcat_mem_input_address2_dout 1 11 1 5910 690n
+preplace netloc xlconcat_mem_input_address_dout 1 11 1 5900 670n
+preplace netloc xlconcat_status1_dout 1 3 2 1290 340 1740
+preplace netloc xlconstant_1_dout 1 6 2 2870 2310 N
+preplace netloc xlconstant_5_dout 1 6 2 2810 1960 N
+preplace netloc xlconstant_6_dout 1 6 2 2790 1920 N
+preplace netloc xlconstant_7_dout 1 7 1 3270 530n
+preplace netloc xlconstant_mem_input_addr_low1_dout 1 10 1 5290 920n
+preplace netloc xlconstant_mem_input_addr_low_dout 1 10 1 5280 720n
+preplace netloc xlslice_clock_cycles_this_run_0_Dout 1 10 3 NJ 1780 5540 2680 6480
+preplace netloc xlslice_clock_cycles_this_run_1_Dout 1 10 3 NJ 1880 5520 2690 6460
+preplace netloc xlslice_clock_cycles_this_run_2_Dout 1 10 3 NJ 2180 5900 2310 6440
+preplace netloc xlslice_core_dig_out_Dout 1 10 5 NJ 2280 5550 2320 NJ 2320 NJ 2320 7190
+preplace netloc xlslice_core_options_LED_Dout 1 10 5 NJ 2080 5550 2130 6540J 1660 NJ 1660 7320
+preplace netloc xlslice_periodic_trigger_count_0_Dout 1 13 2 6890 930 7200
+preplace netloc xlslice_periodic_trigger_count_1_Dout 1 13 2 6880 910 7180
+preplace netloc xlslice_periodic_trigger_count_2_Dout 1 10 3 5240J 2690 5490 2720 6510
+preplace netloc xlslice_periodic_trigger_count_3_Dout 1 10 3 NJ 2480 5530 2500 6450
+preplace netloc xlslice_stop_watch_low1_Dout 1 10 3 N 2680 5500 2700 6440
+preplace netloc xlslice_stop_watch_low_Dout 1 10 3 NJ 2580 5510 2710 6490
+preplace netloc xlslice_wait_cycles_0_Dout 1 12 3 N 1670 N 1670 7190
+preplace netloc xlslice_wait_cycles_1_Dout 1 12 3 N 1710 N 1710 7210
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 2 2850 2210 N
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 11 2 6150 790 6440
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 2430 460n
+preplace netloc axi_interconnect_0_M01_AXI 1 5 7 2320J -60 NJ -60 NJ -60 NJ -60 NJ -60 NJ -60 6010
+preplace netloc axi_interconnect_0_M02_AXI 1 5 7 2330 -50 N -50 N -50 N -50 N -50 N -50 6120
+preplace netloc axi_interconnect_0_M03_AXI 1 5 7 2340J -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 5950
+preplace netloc axi_interconnect_0_M04_AXI 1 5 1 2420 540n
+preplace netloc axi_interconnect_0_M05_AXI 1 5 7 2350 80 N 80 3080 60 N 60 N 60 N 60 6050
+preplace netloc axi_interconnect_0_M06_AXI 1 5 1 2450 580n
+preplace netloc axi_interconnect_0_M07_AXI 1 0 6 -20 190 N 190 N 190 1180 130 NJ 130 2310
+preplace netloc axi_interconnect_0_M08_AXI 1 5 7 2390J 310 NJ 310 3070 250 3690 360 N 360 N 360 N
+preplace netloc axi_interconnect_0_M09_AXI 1 5 8 2360J 110 NJ 110 3070 100 N 100 4960 790 N 790 6060 810 N
+preplace netloc axi_interconnect_0_M10_AXI 1 5 7 2380 120 NJ 120 3080 110 N 110 NJ 110 N 110 6030
+preplace netloc axi_interconnect_0_M11_AXI 1 5 7 2400 130 NJ 130 3120 120 N 120 NJ 120 NJ 120 5550
+preplace netloc axi_interconnect_0_M12_AXI 1 5 7 2370 -20 NJ -20 N -20 N -20 NJ -20 NJ -20 5980
+preplace netloc axi_interconnect_0_M13_AXI 1 5 1 2440 710n
+preplace netloc axi_interconnect_0_M14_AXI 1 5 1 2410 430n
+preplace netloc axi_interconnect_0_M15_AXI 1 5 1 2440 760n
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1150 380n
+preplace netloc processing_system7_0_DDR 1 4 11 1840 0 N 0 NJ 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 7270
+preplace netloc processing_system7_0_FIXED_IO 1 4 11 1830 -40 N -40 NJ -40 N -40 N -40 N -40 N -40 6150 -10 N -10 N -10 7300
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 1 1860 250n
+levelinfo -pg 1 -130 140 510 950 1510 2140 2660 2990 3510 4430 5110 5390 6290 6740 7080 7360
+pagesize -pg 1 -db -bbox -sgen -300 -610 7620 3320
+"
+}
+{
+   "da_axi4_cnt":"32",
+   "da_board_cnt":"17",
+   "da_bram_cntlr_cnt":"16",
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"1"
+}
