@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="OpticsFoundry_Seq_MZ_App" location="C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vitis_2023.1/OpticsFoundry_Seq_MZ_App" platform="C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vitis_2023.1/OpticsFoundry_Seq_MZ_Platform/export/OpticsFoundry_Seq_MZ_Platform/OpticsFoundry_Seq_MZ_Platform.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="OpticsFoundry_Seq_MZ_App_system" sysConfig="OpticsFoundry_Seq_MZ_Platform" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="2e699003d176efe662ce4b31b1bd43ad">
-  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1080985378" dirty="true">
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1080985378">
     <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
   </configuration>
   <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1961147291.1113327363">
     <configBuildOptions xsi:type="sdkproject:SdkOptions"/>

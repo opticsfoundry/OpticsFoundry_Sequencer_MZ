@@ -72,3 +72,8 @@ bsp write
 bsp reload
 catch {bsp regenerate}
 platform generate -domains standalone_ps7_cortexa9_0 
+platform generate
+platform active {OpticsFoundry_Seq_MZ_Platform}
+bsp reload
+bsp write
+platform generate -domains 

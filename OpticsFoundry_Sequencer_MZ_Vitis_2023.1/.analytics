@@ -131,3 +131,20 @@ timestamp=[2025-08-03 14:00:38], mode=BUILD, duration=0:00:07.473, duration_ms=7
 timestamp=[2025-08-03 14:00:43], mode=BUILD, duration=0:00:04.595, duration_ms=4595, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Debug, clean_build=false}
 timestamp=[2025-08-03 14:00:55], mode=BUILD, duration=0:00:01.315, duration_ms=1315, data={name=OpticsFoundry_Seq_MZ_App, configuration=Debug, clean_build=false}
 timestamp=[2025-08-03 14:01:00], mode=BUILD, duration=0:00:04.665, duration_ms=4665, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:45:09], mode=WORKBENCH_START, duration=0:00:12.941, duration_ms=12941, data={}
+timestamp=[2025-08-17 17:45:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.077, duration_ms=77, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-08-17 17:45:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2025-08-17 17:50:30], mode=PLATFORM_GENERATION, duration=0:00:27.262, duration_ms=27262, data={name=OpticsFoundry_Seq_MZ_Platform}
+timestamp=[2025-08-17 17:50:40], mode=BUILD, duration=0:00:06.923, duration_ms=6923, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:53:26], mode=PLATFORM_GENERATION, duration=0:00:01.936, duration_ms=1936, data={name=OpticsFoundry_Seq_MZ_Platform}
+timestamp=[2025-08-17 17:53:27], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=true}
+timestamp=[2025-08-17 17:53:34], mode=BUILD, duration=0:00:07.459, duration_ms=7459, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:53:40], mode=BUILD, duration=0:00:05.484, duration_ms=5484, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:55:18], mode=BUILD, duration=0:00:00.434, duration_ms=434, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:55:23], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:55:28], mode=BUILD, duration=0:00:04.162, duration_ms=4162, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:57:24], mode=BUILD, duration=0:00:06.332, duration_ms=6332, data={name=OpticsFoundry_Seq_MZ_App, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:57:29], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=OpticsFoundry_Seq_MZ_App, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:57:33], mode=BUILD, duration=0:00:04.238, duration_ms=4238, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:57:53], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=OpticsFoundry_Seq_MZ_App, configuration=Release, clean_build=false}
+timestamp=[2025-08-17 17:57:58], mode=BUILD, duration=0:00:04.220, duration_ms=4220, data={name=OpticsFoundry_Seq_MZ_App_system, configuration=Release, clean_build=false}
