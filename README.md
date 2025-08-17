@@ -11,7 +11,7 @@ This project was inspired by [JQI AutomatioN for Experiments (JANE)](https://git
 Clone this repository into the path
 C:\AQuRA\
 
-(It's easier to use this path than trying to adjust the project to a different one. The Vitis project can be adjusted relatively easily. The Vivado project takes more effort. You usually only need the Vitis project.)
+It's easier to use this specific path than trying to adjust the project to a different one. The paths of the Vitis project can be adjusted relatively easily. Adjusting the Vivado project paths takes more effort. To recreate and flash the firmware you only need the Vitis project.
 
 ## To create the MicroZed firmware
 
@@ -19,7 +19,7 @@ With Vitis 2023.1 (and not another Vitis version), open the folder
 
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1
 
-An empty workspace should appear. To import the projects, select
+An empty workspace should appear. To import the project(s), select
 
 File -> Import -> Import projects from Git -> Existing local repository -> OpticsFoundry_Sequencer_MZ -> Import existing Eclipse projects -> OpticsFoundry_Sequencer_MZ_Vitis_2023.1 -> Finish
 
@@ -37,23 +37,30 @@ Put the following under "Software Platform Inferred Flags":
 
 -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,-lm,--end-group
 
-If you want to change from DHCP to static IP, read the instructions in C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1\OpticsFoundry_Seq_MZ_App\src\main.c.
+To recreate and flash the firmware do the following:
 
 Right click on "Assistant" OpticsFoundry_Seq_MZ_App -> Debug and select it.
 
 Right click on projects in "Explorer" and select "Build all", or just "Build", then "Create Boot Image".
+
 Right click on "Assistant" OpticsFoundry_Seq_MZ_App -> Release and select it.
+
 Right click on projects in "Explorer" and select "Build all", or just "Build", then "Create Boot Image".
 
 Connect JTAG cable to the MicroZed (e.g. the Digilent JTAG-HS3), select "Explorer" -> "Program Flash"
 
-
-Use OpticsFoundry_Control_AQuRA or OpticsFoundry_ControlLight to use it.
+Use OpticsFoundry_Control_AQuRA or OpticsFoundry_ControlLight to test the sequencer.
 
 
 ## Modifying the C code of the MicroZed firmware
 
-This code is based on the Vitis example lwIP echo server. Most of the sequencer specific code is contained in firefly.c. To change the IP configuration (MAC address, DHCP or static IP) follow the instructions in main.c. Project specific TCP/IP communication code is contained in echo.c. An interpreter for a very simple programing language running on the ARM core of the MircroZed is implemented using the code in the OpticsFoundryCPUCommandSequencer folder. This folder can also be opened as a Visual Studio 2022 C++ Makefile project, to run the interpreter on Windows for debugging.
+This code is based on the Vitis example "lwIP echo server". Most of the sequencer specific code is contained in firefly.c.
+
+To change the IP configuration (MAC address, DHCP or static IP) follow the instructions in
+
+C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1\OpticsFoundry_Seq_MZ_App\src\main.c.
+
+Project specific TCP/IP communication code is contained in echo.c. An interpreter for a very simple programing language running on the ARM core of the MircroZed is implemented using the code in the OpticsFoundryCPUCommandSequencer folder.
 
 
 ## To create the FPGA bitstream
@@ -64,9 +71,11 @@ C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vivado_2023.1\Fir
 
 Update all IP.
 
-When creating the bitstream, you can ignore the two "BD 41-237" warnings.
+Under "Flow Navigator", click on "Generate Bitstream".
 
-After creating the bitstream, export it using
+Ignore the two "BD 41-237" warnings.
+
+After creating the bitstream (which takes about 15 minutes), export it using
 
 File -> Export -> Export Hardware -> "Include Bitstream"-> Finish
 
@@ -74,11 +83,11 @@ To include this bitstream in the MicroZed firmware, in Vitis, in "Explorer" righ
 
 OpticsFoundry_Seq_MZ_Platform 
 
-select "Update Hardware Specifications" and select
+select "Update Hardware Specifications" and select the file you just exported, i.e. usually
 
 C:/AQuRA/OpticsFoundry_Sequencer_MZ/OpticsFoundry_Sequencer_MZ_Vivado_2023.1/design_1_wrapper.xsa
 
-Then, as explained above, rebuild everything, create boot image, and program flash.
+Then, as explained above, rebuild the firmware, create boot image, and program flash.
 
 ## Modifying the FPGA design
 
