@@ -91,7 +91,9 @@ Then, as explained above, rebuild the firmware, create boot image, and program f
 
 ## Modifying the FPGA design
 
-Open the project and then "Open Block Design". After the project has fully loaded, you can access the source files in the Block Design window under "Sources -> Design Sources". The main part of the code is contained in the file core.sv (under core_wrapper -> core_inst: core). It shouldn't be too difficult to understand the design by reading this file. It might be informative to read it to understand the sequences that OpticsFoundry_Control and OpticsFoundry_ControlLight send to the sequencer. (You can inspect an ASCII file dump of those sequences by enabling the "Debug FPGA buffer" option in the "System debug options" menu of OpticsFoundry_Control).
+Open the project and then "Open Block Design". After the project has fully loaded, you can access the source files in the Block Design window under "Sources -> Design Sources". 
+
+The main part of the code is contained in the file core.sv (under core_wrapper -> core_inst: core). It shouldn't be too difficult to understand the design by reading this file. It might be informative to read it to understand the sequences that OpticsFoundry_Control and OpticsFoundry_ControlLight send to the sequencer. (You can inspect an ASCII file dump of those sequences by enabling the "Debug FPGA buffer" option in the "System debug options" menu of OpticsFoundry_Control).
 
 The pinout to the MicroZed header is defined under "Constraints -> constr_1 -> MicroZed_constraints.xdc".
 
