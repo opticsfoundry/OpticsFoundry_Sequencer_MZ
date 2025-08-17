@@ -2,7 +2,9 @@
 
 ## Introduction
 
-The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel or SPI, I2C bus to output and input (analog, digital, and direct digital synthesizers). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and PYNQ versions are also available; ask us if you need them.
+The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel, SPI, and I2C bus to analog and digital in/outputs and direct digital synthesizers (AD9854, AD9858, AD9958). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and PYNQ versions are also available; ask us if you need them.
+
+This project was inspired by JQI AutomatioN for Experiments (JANE) [https://github.com/JQIamo/jane][https://pubs.aip.org/aip/rsi/article-abstract/92/5/055107/1021868/Programmable-system-on-chip-for-controlling-an].
 
 ## Cloning
 
@@ -18,14 +20,21 @@ With Vitis 2023.1 (and not another Vitis version), open the folder
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1
 
 An empty workspace should appear. To import the projects, select
+
 File -> Import -> Import projects from Git -> Existing local repository -> OpticsFoundry_Sequencer_MZ -> Import existing Eclipse projects -> OpticsFoundry_Sequencer_MZ_Vitis_2023.1 -> Finish
 
 Right click "OpticsFoundry_Seq...App" (not "..App_system")
+
 Select "Properties"
+
 Select "C/C++ Build -> Settings"
+
 Select "ARM v7 gcc linker -> Inferred Options -> Software Platform"
+
 Put the following under "Software Platform Inferred Flags":
+
 -Wl,--start-group,-lxil,-lgcc,-lc,-lm,--end-group
+
 -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,-lm,--end-group
 
 If you want to change from DHCP to static IP, read the instructions in C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1\OpticsFoundry_Seq_MZ_App\src\main.c.
