@@ -3,6 +3,8 @@ OpticsFoundry Sequencer for MicroZed 7020
 Clone this repository into the path
 C:\AQuRA\
 
+(It's easier to use this path than trying to adjust the project to a different one. The Vitis project can be adjusted relatively easily. The Vivado project takes more effort. You usually only need the Vitis project.)
+
 With Vitis 2023.1, open the folder 
 
 C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1
@@ -17,6 +19,8 @@ Select "ARM v7 gcc linker -> Inferred Options -> Software Platform"
 Put the following under "Software Platform Inferred Flags":
 -Wl,--start-group,-lxil,-lgcc,-lc,-lm,--end-group
 -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,-lm,--end-group
+
+If you want to change from DHCP to static IP, read the instructions in C:\AQuRA\OpticsFoundry_Sequencer_MZ\OpticsFoundry_Sequencer_MZ_Vitis_2023.1\OpticsFoundry_Seq_MZ_App\src\main.c.
 
 Right click on "Assistant" OpticsFoundry_Seq_MZ_App -> Debug and select it.
 
