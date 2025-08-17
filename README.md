@@ -4,7 +4,7 @@
 
 The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel, SPI, and I2C bus to analog and digital in/outputs and direct digital synthesizers (AD9854, AD9858, AD9958). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and PYNQ versions are also available; ask us if you need them.
 
-This project was inspired by JQI AutomatioN for Experiments (JANE) [https://github.com/JQIamo/jane][https://pubs.aip.org/aip/rsi/article-abstract/92/5/055107/1021868/Programmable-system-on-chip-for-controlling-an].
+This project was inspired by [JQI AutomatioN for Experiments (JANE)](https://github.com/JQIamo/jane), see alse [Rev. Sci. Instrum. 92, 055107 (2021)](https://pubs.aip.org/aip/rsi/article-abstract/92/5/055107/1021868/Programmable-system-on-chip-for-controlling-an).
 
 ## Cloning
 
