@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel, SPI, and I2C bus to analog and digital in/outputs and direct digital synthesizers (AD9854, AD9858, AD9958). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and PYNQ versions are also available; ask us if you need them.
+The OpticsFoundry control system uses a Zynq 7020 based System on Module to create commands sent over parallel, SPI, and I2C bus to analog and digital in/outputs and direct digital synthesizers (AD9854, AD9858, AD9958). This repository contains the Vivado and Vitis projects needed to recreate the OpticsFoundry sequencer firmware for the MicroZed 7020. Z-turn V2 and [PYNQ](https://github.com/opticsfoundry/OF_Sequencer_PYNQ) versions are also available; ask us if you need them.
 
 This project was inspired by [JQI AutomatioN for Experiments (JANE)](https://github.com/JQIamo/jane), see alse [Rev. Sci. Instrum. 92, 055107 (2021)](https://pubs.aip.org/aip/rsi/article-abstract/92/5/055107/1021868/Programmable-system-on-chip-for-controlling-an).
 
@@ -11,7 +11,7 @@ This project was inspired by [JQI AutomatioN for Experiments (JANE)](https://git
 Clone this repository into the path
 C:\AQuRA\
 
-It's easier to use this specific path than trying to adjust the project to a different one. The paths of the Vitis project can be adjusted relatively easily. Adjusting the Vivado project paths takes more effort. To recreate and flash the firmware you only need the Vitis project.
+For Vitis, it's easier to use this specific path than trying to adjust the project to a different one.
 
 ## To create the MicroZed firmware
 
