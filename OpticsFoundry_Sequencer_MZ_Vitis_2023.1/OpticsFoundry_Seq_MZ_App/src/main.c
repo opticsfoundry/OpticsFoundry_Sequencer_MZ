@@ -153,6 +153,10 @@ void RunEventLoop() { //make sure other parts of the program regularly (at least
 
 
 /* the mac address of the board. this should be unique per board */
+/*
+To change MAC address:
+Change mac_ethernet_address, then rebuild as DEBUG and RELEASE, create firmware image, flash.
+*/
 unsigned char mac_ethernet_address[] =
 	{ 0x00, 0x0a, 0x35, 0xF1, 0x01, 0x02 };
 
@@ -192,6 +196,11 @@ int main()
 
 
 /*
+To change MAC address: 
+
+Change mac_ethernet_address above, then rebuild as DEBUG and RELEASE, create firmware image, flash.
+
+
 To switch between static IP and DCHP:
 
 For static IP: set IP parameters in the table below.
@@ -208,7 +217,7 @@ Under "DHCP options" put DHCP_DOES_ARP_CHECK and LWIP_DHCP on "false" for Static
 
 Method 2 (text editor):
 
-In lwipopts.h (appears twice in project, search for “#define LWIP_DHCP” in whole project
+In lwipopts.h (appears twice in project, search for ï¿½#define LWIP_DHCPï¿½ in whole project
 with Visual Studio Code)
 
 for DHCP:
@@ -220,8 +229,15 @@ for StaticIP:
 #define DHCP_DOES_ARP_CHECK 0
 
 Clean project.
-Rebuild.
+Set DEBUG active
+Rebuild as DEBUG (even if you use RELEASE)
 Check that under "Problem" you see the information if STATIC_IP or DHCP is used.
+Set RELEASE active
+Rebuild as RELEASE
+Check that under "Problem" you see the information if STATIC_IP or DHCP is used.
+Create firmware image
+Flash
+
 
 */
 
